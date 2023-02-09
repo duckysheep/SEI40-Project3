@@ -1,0 +1,19 @@
+{
+  "name": "walletwise",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "cd server && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydenkeh/WalletWise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydenkeh/WalletWise/issues"
+  },
+  "homepage": "https://github.com/jaydenkeh/WalletWise#readme"
+}

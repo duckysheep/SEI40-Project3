@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  padding-top: 50px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  min-height: 50px;
+  background: #4a4943;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-page {
+  display: flex;
+  column-gap: 100px;
+}
+
+.loading-circle {
+  margin: 0 auto 8px auto;
+}
+
+.income-wrapper {
+  flex-basis: 50%;
+}
+
+.expenses-wrapper {
+  flex-basis: 50%;
+}
+
+.account-barchart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 28px;
+}
+
+.add-account-container {
+  margin: 10px 0 50px 0;
+}
+
+.all-accounts-container {
+  margin: 25px;
+}
